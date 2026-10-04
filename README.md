@@ -19,12 +19,12 @@ A 4-bit parallel (ripple-carry) adder built from four 1-bit full adders, written
 ## Result
 The SimVision waveform shows the sum and carry-out matching the expected values for all four cases, including the carry-out case (9 + 7).
 
-![Waveform](images/waveform_simvision.png)
+![Waveform](waveform_simvision.png)
 
 ## Files
 - `rtl/adder_4bit.v`: design (`fa`, `pa`)
 - `tb/adder_4bit_tb.v`: testbench (`patest`)
-- `images/waveform_simvision.png`: SimVision waveform
+- `waveform_simvision.png`: SimVision waveform
 
 ## Tools
 Verilog, Cadence NC-Verilog, Cadence SimVision
